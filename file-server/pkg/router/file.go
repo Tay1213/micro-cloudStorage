@@ -48,6 +48,7 @@ func GetFile(context *gin.Context) {
 	fileNameWithSuffix := path.Base(filePath)
 	//获取文件的后缀
 	fileType := path.Ext(fileNameWithSuffix)
+	//获取文件类型对应的http ContentType 类型
 	fileContentType := HttpContentType[fileType]
 	if fileContentType == "" {
 		fileContentType = "application/octet-stream"
