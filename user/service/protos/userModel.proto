@@ -1,0 +1,24 @@
+syntax="proto3";
+package services;
+option go_package="./;protos";
+
+message UserModel{
+  // @inject_tag: json:"id"
+  uint32 ID=1 [json_name = "id"];
+  // @inject_tag: json:"username"
+  string Username=2 [json_name = "username"];
+  // @inject_tag: json:"email"
+  string Email=3 [json_name = "email"];
+  // @inject_tag: json:"client_random_value"
+  string ClientRandomValue=4 [json_name = "client_random_value"];
+  // @inject_tag: json:"encrypted_master_key"
+  string EncryptedMasterKey=5 [json_name = "encrypted_master_key"];
+  // @inject_tag: json:"hashed_authentication_key"
+  string HashedAuthenticationKey=6 [json_name = "hashed_authentication_key"];
+  // @inject_tag: json:"regdate"
+  string Regdate=7 [json_name = "reg_date"];
+  // @inject_tag: json:"logins"
+  int64 Logins=8;
+  // @inject_tag: json:"root_dict_id"
+  int64 RootDictId=9 [json_name = "root_dict_id"];
+}

@@ -1,0 +1,39 @@
+syntax="proto3";
+package services;
+import "userModel.proto";
+import "filesService.proto";
+option go_package ="./;protos";
+
+message UserRequest{
+  int32 ID=1 [json_name = "id"];
+  // @inject_tag: json:"username" form:"username" uri:"username"
+  string UserName=2 [json_name = "username"];
+  // @inject_tag: json:"email" form:"email" uri:"email"
+  string Email=3 [json_name = "email"];
+  // @inject_tag: json:"password" form:"password" uri:"password"
+  string ClientRandomValue=4 [json_name = "client_random_value"];
+  // @inject_tag: json:"password" form:"password" uri:"password"
+  string EncryptedMasterKey=5 [json_name = "encrypted_master_key"];
+  // @inject_tag: json:"password" form:"password" uri:"password"
+  string HashedAuthenticationKey=6 [json_name = "hashed_authentication_key"];
+
+}
+
+message UserDetailResponse{
+  UserModel UserDetail=1;
+  FileResponse FileResponse=2;
+  string Token=3;
+  uint32 Code=4;
+  string Msg=5;
+}
+
+
+service UserService{
+  rpc UserRegister(UserRequest) returns(UserDetailResponse);
+  rpc UserLogin(UserRequest) returns(UserDetailResponse);
+  rpc UserLogout(UserRequest) returns(UserDetailResponse);
+  rpc GetUserByName(UserRequest) returns(UserDetailResponse);
+  rpc GetUserByEmail(UserRequest) returns(UserDetailResponse);
+  rpc UpdateUser(UserRequest) returns(UserDetailResponse);
+  rpc DeleteUser(UserRequest) returns(UserDetailResponse);
+}

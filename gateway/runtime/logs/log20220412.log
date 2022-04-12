@@ -1,0 +1,2 @@
+[INFO][userWrapper.go:30]2022/04/12 14:26:04 userService-- :UserService.UserLogin:服务降级
+[INFO][pkg.go:11]2022/04/12 14:26:04 userService--fallback failed with '{"id":"go.micro.client","code":500,"detail":"验证失败！","status":"Internal Server Error"}'. run error was '{"id":"go.micro.client","code":500,"detail":"验证失败！","status":"Internal Server Error"}'

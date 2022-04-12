@@ -1,0 +1,42 @@
+syntax="proto3";
+package services;
+option go_package="./;protos";
+
+message FileRequest{
+  int32 ID=1 [json_name = "id"];
+  int32 UserID=2 [json_name = "user_id"];
+  int32 ParentDictId=3 [json_name = "parent_dict_id"];
+  int32 PageNum=4 [json_name = "page_num"];
+  int32 PageSize=5 [json_name = "page_size"];
+  string EncryptedKey=6 [json_name = "encrypted_key"];
+  //文件上传
+  string FileName=7;
+  int32 Size=8;
+  bytes Data=9;
+
+}
+
+message FileResponse{
+  int32 UserID=1;
+  int32 RootDictID=2;
+  int32 TotalFile=3;
+  int32 ParentId=4;
+  repeated FileDetails files=5;
+  string FileAddr=6;
+}
+
+message FileDetails{
+  int32 ID=1;
+  int32 ParentDictId=2;
+  string FileName=3;
+  string EncryptedKey=4;
+  string FileType=5;
+}
+
+service FileService{
+  rpc CreateNewFileRoot(FileRequest) returns (FileResponse);
+  rpc GetFilesByParentDictId(FileRequest) returns (FileResponse);
+  rpc AddFile(FileRequest) returns (FileResponse);
+  rpc DeleteFile(FileRequest) returns (FileResponse);
+  rpc GetFile(FileRequest) returns (FileResponse);
+}

@@ -1,0 +1,2 @@
+[INFO][pkg.go:11]2022/04/09 22:48:28 userService--{"id":"go.micro.client","code":500,"detail":"查询失败","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/09 22:51:22 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}

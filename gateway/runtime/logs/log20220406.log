@@ -1,0 +1,38 @@
+[INFO][pkg.go:11]2022/04/06 15:30:37 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:31:11 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:32:36 userService--{"id":"go.micro.client","code":500,"detail":"service rpcUserService: not found","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 15:35:02 userService--{"id":"go.micro.server","code":500,"detail":"panic recovered: runtime error: invalid memory address or nil pointer dereference","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 15:37:55 userService--{"id":"go.micro.server","code":500,"detail":"panic recovered: runtime error: invalid memory address or nil pointer dereference","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 15:38:19 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:41:29 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:44:32 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:44:53 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:55:12 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:58:15 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 15:59:43 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 16:00:01 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 16:00:34 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 16:04:20 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 16:05:31 userService--{"id":"go.micro.server","code":500,"detail":"panic recovered: runtime error: invalid memory address or nil pointer dereference","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 17:06:11 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:09:45 userService--{"id":"go.micro.client","code":500,"detail":"验证失败！","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 17:11:09 userService--{"id":"go.micro.client","code":500,"detail":"验证失败！","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 17:11:54 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:14:10 userService--{"id":"go.micro.client","code":500,"detail":"service rpcUserService: not found","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 17:14:33 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:16:21 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:17:04 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:17:59 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:18:21 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:25:33 userService--{"id":"go.micro.server","code":500,"detail":"panic recovered: runtime error: invalid memory address or nil pointer dereference","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 17:37:31 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:38:03 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:38:41 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:38:51 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:39:10 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:46:29 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:47:09 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:48:37 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:53:16 userService--{"id":"go.micro.server","code":500,"detail":"panic recovered: runtime error: invalid memory address or nil pointer dereference","status":"Internal Server Error"}
+[INFO][pkg.go:11]2022/04/06 17:54:39 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
+[INFO][pkg.go:11]2022/04/06 17:55:46 userService--{"id":"go.micro.client","code":408,"detail":"context deadline exceeded","status":"Request Timeout"}
